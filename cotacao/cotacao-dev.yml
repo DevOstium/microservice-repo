@@ -1,0 +1,14 @@
+#Profile de DEV
+spring:
+  datasource:
+    password: Del@2010
+    username: root
+    url: jdbc:mysql://localhost:3306/cotacao?useTimezone=true&serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
